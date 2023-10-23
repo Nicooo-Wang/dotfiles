@@ -113,3 +113,6 @@ source ~/.oh-my-zsh/custom/plugins/powerlevel10k/powerlevel10k.zsh-theme
 
 # path
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="/snap/bin:$PATH"
+
+. "$HOME/.cargo/env"
