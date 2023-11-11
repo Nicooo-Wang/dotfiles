@@ -86,8 +86,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="/snap/bin:$PATH"
 
-. "$HOME/.cargo/env"
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -117,14 +115,14 @@ export PATH="/snap/bin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/nico/.local/share/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/nico/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/nico/.local/share/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/nico/.local/share/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/nico/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/nico/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/nico/.local/share/anaconda3/bin:$PATH"
+        export PATH="/home/nico/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
