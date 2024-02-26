@@ -1,0 +1,9 @@
+    "workbench.colorCustomizations": {
+      "editor.lineHighlightBackground": "#ffd00033",
+      "editorLineNumber.activeForeground": "#f503fd",
+      "editorLineNumber.foreground": "#8d5b8f",
+      "editor.wordHighlightBackground": "#19798f",
+      "editor.selectionHighlightBackground": "#386653",
+      "editor.selectionBackground": "#33707e"
+    },
+// Aurora X theme
