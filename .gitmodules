@@ -10,6 +10,3 @@
 [submodule "oh-my-zsh/.oh-my-zsh/custom/plugins/zsh-vi-mode"]
         path = oh-my-zsh/.oh-my-zsh/custom/plugins/zsh-vi-mode
         url = https://github.com/jeffreytse/zsh-vi-mode.git
-[submodule "oh-my-zsh/.oh-my-zsh/custom/plugins/zsh-vi-mode"]
-        path = oh-my-zsh/.oh-my-zsh/custom/plugins/zsh-vi-mode
-        url = https://github.com/jeffreytse/zsh-vi-mode.git
