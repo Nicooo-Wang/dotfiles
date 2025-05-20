@@ -12,7 +12,6 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 # ===>> mine
 export TERM=xterm-256color
-source $HOME/.local/scripts/my_tool_cmds.sh
 # bazelisk 下载目录
 export BAZELISK_BASE_URL=https://mirrors.tools.huawei.com/bazel/
 # zsh-vi-mode
