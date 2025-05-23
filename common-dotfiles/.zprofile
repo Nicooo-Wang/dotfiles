@@ -27,6 +27,7 @@ if [ -f "$HOME/.profile.custom" ] ; then
 fi
 # bins
 export PATH=$HOME/.local/bin:$PATH
+export PATH=/snap/bin:$PATH
 # <<=== end mine
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
