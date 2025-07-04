@@ -28,4 +28,6 @@ fi
 # bins
 export PATH=$HOME/.local/bin:$PATH
 export PATH=/snap/bin:$PATH
+# npm 
+export PATH=$(npm config get prefix)/bin:$PATH
 # <<=== end mine
