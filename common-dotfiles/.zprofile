@@ -30,4 +30,7 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=/snap/bin:$PATH
 # npm 
 export PATH=$(npm config get prefix)/bin:$PATH
+# vi-mode
+export VI_MODE_CURSOR_VISUAL=2
+export VI_MODE_SET_CURSOR=true
 # <<=== end mine

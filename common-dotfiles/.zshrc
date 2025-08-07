@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions z dirhistory zsh-syntax-highlighting zsh-vi-mode extract)
+plugins=(git zsh-autosuggestions z dirhistory zsh-syntax-highlighting vi-mode extract)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -115,14 +115,14 @@ source $ZSH/oh-my-zsh.sh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/lixia/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/ubuntu/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/lixia/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/lixia/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/ubuntu/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/ubuntu/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/lixia/anaconda3/bin:$PATH"
+        export PATH="/home/ubuntu/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
