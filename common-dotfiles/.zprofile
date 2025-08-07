@@ -31,6 +31,10 @@ export PATH=/snap/bin:$PATH
 # npm 
 export PATH=$(npm config get prefix)/bin:$PATH
 # vi-mode
+# vi-mode
 export VI_MODE_CURSOR_VISUAL=2
 export VI_MODE_SET_CURSOR=true
+
+# 多进程
+export MAX_JOBS=$(($(nproc)-1))
 # <<=== end mine
