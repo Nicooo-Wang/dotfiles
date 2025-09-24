@@ -1,7 +1,7 @@
 {
   "env": {
-    "ANTHROPIC_AUTH_TOKEN": "sk-7CYxzn7h2iwed5xQA4Y1G4fn5NmthtylbEGqvgTPihj5XQx9",
-    "ANTHROPIC_BASE_URL": "https://cc.zhihuiapi.top",
+    "ANTHROPIC_AUTH_TOKEN": "sk-yTRzsSvr7JQqit99FOLo6G8LpGWxAdoBLmuIVbwfvFrXUGvs",
+    "ANTHROPIC_BASE_URL": "https://code.ppchat.vip/",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
     "API_TIMEOUT_MS": 600000
   },
