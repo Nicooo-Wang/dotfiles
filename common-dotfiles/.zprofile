@@ -38,4 +38,7 @@ export VI_MODE_SET_CURSOR=true
 
 # 多进程
 export MAX_JOBS=$(($(nproc)-1))
+
+export ANTHROPIC_AUTH_TOKEN="sk-nTzu0z1AuMi0BabsH6XL9WF4gvyNGgHJFsoGhU7QvVodE7pQ"
+export ANTHROPIC_BASE_URL="https://code.ppchat.vip"
 # <<=== end mine
