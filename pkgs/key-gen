@@ -1,0 +1,22 @@
+#!/bin/bash
+
+SEED="固定的种子字符串"
+KEY_DIR="${1:-$HOME/.ssh}"  # 第一个参数指定目录，默认为 ~/.ssh
+KEY_FILE="$KEY_DIR/id_rsa"
+
+# 创建目录（如果不存在）
+mkdir -p "$KEY_DIR"
+
+# 使用 OpenSSL 从种子生成私钥（不安全！）
+echo "$SEED" | sha256sum | awk '{print $1}' | xxd -r -p | \
+openssl genrsa -rand /dev/stdin 4096 > "$KEY_FILE" 2>/dev/null
+
+# 生成公钥
+ssh-keygen -y -f "$KEY_FILE" > "$KEY_FILE.pub"
+
+# 设置正确的权限
+chmod 600 "$KEY_FILE"
+chmod 644 "$KEY_FILE.pub"
+
+echo "密钥已生成到: $KEY_FILE"
+echo "公钥位置: $KEY_FILE.pub"
