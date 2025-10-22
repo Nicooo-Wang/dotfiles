@@ -1,7 +1,7 @@
 {
   "env": {
-    "ANTHROPIC_AUTH_TOKEN": "sk-54CZW1HnBCFfxbMYC0aYz7I5KIjkgYX9bx0QnBFxlBOTjq8R",
-    "ANTHROPIC_BASE_URL": "https://code.ppchat.vip/",
+    "ANTHROPIC_AUTH_TOKEN": "ck_fa9c30accfe519c1626dc89f64b6b411",
+    "ANTHROPIC_BASE_URL": "https://api.claudecode.uk",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
     "API_TIMEOUT_MS": 600000
   },
