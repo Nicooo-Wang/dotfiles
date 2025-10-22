@@ -1,1 +1,4 @@
 pkgs/Anaconda3-2024.06-1-Linux-x86_64.sh filter=lfs diff=lfs merge=lfs -text
+.git/lfs/objects/53/9b/539bb43d9a52d758d0fdfa1b1b049920ec6f8c6d15ee9fe4a423355fe551a8f7 filter=lfs diff=lfs merge=lfs -text
+.git/modules/oh-my-zsh/.oh-my-zsh/custom/themes/powerlevel10k/objects/pack/pack-06d02c2d5418789e8f4a9ea40c666496a996f5ec.pack filter=lfs diff=lfs merge=lfs -text
+bins/.local/bin/ispc filter=lfs diff=lfs merge=lfs -text
