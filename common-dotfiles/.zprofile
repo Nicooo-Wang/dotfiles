@@ -38,4 +38,7 @@ export VI_MODE_SET_CURSOR=true
 
 # 多进程
 export MAX_JOBS=$(($(nproc)-1))
+
+# uv
+export UV_DEFAULT_INDEX="https://pypi.tuna.tsinghua.edu.cn/simple"
 # <<=== end mine
