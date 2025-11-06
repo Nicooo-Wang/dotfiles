@@ -1,12 +1,8 @@
 {
-  "env": {
-    "ANTHROPIC_AUTH_TOKEN": "ck_fa9c30accfe519c1626dc89f64b6b411",
-    "ANTHROPIC_BASE_URL": "https://api.claudecode.uk",
-    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
-    "API_TIMEOUT_MS": 600000
-  },
-  "permissions": {
-    "allow": [],
-    "deny": []
-  }
+    "env": {
+        "ANTHROPIC_AUTH_TOKEN": "fa9b1b74d2c14c7aa617a74aa5c17c56.sZdSvIY6whFdEfOM",
+        "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
+        "API_TIMEOUT_MS": "30000",
+        "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1
+    }
 }
