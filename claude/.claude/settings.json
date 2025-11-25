@@ -1,8 +1,30 @@
 {
-    "env": {
-        "ANTHROPIC_AUTH_TOKEN": "9f1a0fd1f8754daca9b250829ce16e56.CexH2islarbASH6L",
-        "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
-        "API_TIMEOUT_MS": "30000",
-        "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1
-    }
+  "permissions": {
+    "allow": [
+      "Bash",
+      "BashOutput",
+      "Edit",
+      "Glob",
+      "Grep",
+      "KillShell",
+      "NotebookEdit",
+      "Read",
+      "SlashCommand",
+      "Task",
+      "TodoWrite",
+      "WebFetch",
+      "WebSearch",
+      "Write",
+      "mcp__mcc-z",
+      "mcp__mcc-search",
+      "mcp__mcc-playwright"
+    ]
+  },
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "cr_9a37c871837a3026f648bfe13f81dd34d3a8bac85bef87eb43c8007a6efa0a55",
+    "ANTHROPIC_BASE_URL": "http://47.108.60.237:3300/api",
+    "ANTHROPIC_API_KEY": "",
+    "API_TIMEOUT_MS": "30000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1
+  }
 }
